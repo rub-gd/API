@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.ejercicio.funcionalidadcrm","c":"FuncionalidadcrmApplication","l":"FuncionalidadcrmApplication()","u":"%3Cinit%3E()","k":"3"},{"p":"com.ejercicio.funcionalidadcrm","c":"FuncionalidadcrmApplication","l":"main(String[])","u":"main(java.lang.String[])","k":"6"}];updateSearchResults();
