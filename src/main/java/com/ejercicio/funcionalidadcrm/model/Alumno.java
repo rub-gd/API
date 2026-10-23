@@ -7,8 +7,10 @@ import jakarta.persistence.Id;//Permite utilizar la anotación @Id.
 import jakarta.persistence.Table;//Permite utilizar la anotación @Table.
 
 /**
- *@Entity indica que la clase Alumno represente a una tabla de la base de datos.
- *@Table(name = "Datos_alumno"): indica que la entidad Java corresponde a la tabla Datos_Alumno.
+ * Representa un alumno y su correspondencia con una fila de la base de datos.
+ * <p>{@code @Entity} indica que la clase es una entidad persistente.
+ * {@code @Table(name = "Datos_alumno")} indica que corresponde a la tabla
+ * {@code Datos_alumno}.</p>
  */
 @Entity
 @Table(name = "Datos_alumno")
@@ -34,6 +36,9 @@ public class Alumno {
 	@Column(name = "localidad", length = 30) private String localidad;
 	@Column(name = "foto", length = 255) private String foto;
 	
+	/**
+	 * Crea una instancia vacía de un alumno.
+	 */
 	public Alumno() {
 		//Esto es simplemente un constructor vacío.
 	}
